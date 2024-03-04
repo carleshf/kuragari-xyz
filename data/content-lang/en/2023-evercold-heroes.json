@@ -1,0 +1,19 @@
+{
+	"title": "Evercold’ Heroes",
+	"subtitle": "A short adventure for DnD 5e inspired in a Christmas song.",
+	"year": "2023",
+	"lang": "en",
+	"summary": "Evercold’ village has lived peacefully and prosperous for years. One hundred and twenty-one years ago the last great battle against the tyranny of the Earl-Duke of Darckcorner was fought. In the name of the heroes who brought that peace, the citizens of Evercold celebrate the end of the year with family and friends while praising life and joy. Around thirty before the end of the year, slight earthquakes have impacted the town of Evercold. As the days go by, the tremors are more intent and seem to come from Argamuth, where the battle against Dackcorner ended. What is causing those tremors? Is Evercold's era of peace and prosperity ending?",
+	"system": "D&D 5e",
+	"nplayers": "4",
+	"etime": "5 hours",
+	"available": true,
+ 	"link": {
+		"platform": "Dungeon Masters Guild",
+		"url": "https://www.dmsguild.com/product/461800/Evercold-Heroes"
+	},
+	"slug": "evercold-heroes",
+	"global_slug": "evercold-heroes",
+	"type": "one-shot",
+ 	"collection": "Winter song"
+}

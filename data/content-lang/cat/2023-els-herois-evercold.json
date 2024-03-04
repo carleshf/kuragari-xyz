@@ -1,0 +1,19 @@
+{
+	"title": "Els herois d'Evercold",
+	"subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+	"year": "2023",
+	"lang": "cat",
+	"summary": "Fa anys que la vila d'Evercold viu una pacífica i pròspera era. D'aquí poc farà cent i vint-i-un anys que es va lliurar la darrera gran batalla contra la tirania del Comte-duc de Darckcorner. En nom dels herois que van portar aquesta pau, els ciutadans d'Evercold celebren el Cap d'Any entre familiars i amics mentre lloen la vida i l'alegria. A una trentena de finals d'any, lleus terratrèmols han impactat la vila d'Evercold. A mesura que passen els dies, els tremolors són més intents i sembla que provenen d'Argamuth, on va acabar la batalla contra Dackcorner. Què és el que provoca aquests tremolors? Acaba l'era de pau i prosperitat d'Evercold?",
+	"system": "D&D 5e",
+	"nplayers": "4",
+	"etime": "5 hores",
+	"available": true,
+	"link": {
+		"platform": "Dungeon Masters Guild",
+		"url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold"
+	},
+	"slug": "els-herois-evercold",
+	"global_slug": "evercold-heroes",
+	"type": "one-shot",
+ 	"collection": "Canço d'hivern"
+}

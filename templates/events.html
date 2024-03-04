@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+        <h2>Events</h2>
+        <p>Where you can find me out there 😎</p>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="accordion" id="accordionExample">
+            {% for evt in events %}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{ evt.event.slug }}" aria-expanded="false" aria-controls="{{ evt.event.slug }}">
+                  {{ evt.event.title }}
+                </button>
+              </h2>
+              <div id="{{ evt.event.slug }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  {% if evt.promotion.status == 'yes' %}
+                  <div class="alert alert-secondary" role="alert">
+                    🤝 My contribution to this event was promoted by <a href="{{ evt.promotion.url }}" target="_black" class="link-danger">{{ evt.promotion.name }}</a>
+                  </div>
+                  {% endif %}
+                  {% if evt.content|length == 0 %}
+                  <div class="alert alert-warning" role="alert">
+                    Information not available at the moment.
+                  </div>
+                  {% else %}
+                  <ul>
+                    {% if evt.url != '' %}
+                      <li>🌐 <a href="{{ evt.event.url}}" target="_blank" class="link-secondary">{{ evt.event.title }}'s web site</a></li>
+                    {% endif %}
+                    {% for cnt in evt.content %}
+                      {% if cnt.url == '' %}
+                        <li>🎲 {{ cnt.type }} / {{ cnt.title }}
+                      {% else %}
+                        <li>🎲 {{ cnt.type }} / <a href="{{ cnt.url }}" target="_blank" class="link-success">{{ cnt.title }}</a>
+                      {% endif %}
+                        <ul>
+                          {% if cnt.metatype == 'direction' %}
+                            <li>📆 {{ cnt.date }}</li>
+                            <li>🎬 Direction (🗣️ {{ cnt.lang }})</li>
+                          {% elif cnt.metatype == 'creation' %}
+                            <li>✍️ Creation (🗣️ {{ cnt.lang }})</li>
+                            <li>🏆 {{ cnt.prize }}</li>
+                            <li>📖 The compendium can be found at <a href="{{ cnt.accessibility.url }}" target="_blank">{{ cnt.accessibility.tag }}</a></li>
+                          {% else %}
+                            <li>📆 {{ cnt.date }}</li>
+                            <li>🕹️ Player (🗣️ {{ cnt.lang }})</li>
+                          {% endif %}
+                          {% if cnt.extra %}
+                            <li>📺 You can see this recording at <a href="{{ cnt.extra.url }}" target="_blank">{{ cnt.extra.type }}</a></li>
+                          {% endif %}
+                        </ul>
+                      </li>
+                    {% endfor %}
+                  {% endif %}
+                  <ul>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div> 
+      </div>
+		</div>
+	</div>
+  <div class="row">
+    <div class="col-md-12">
+      &nbsp;
+    </div>
+  </div>  
+</div>
+{% endblock %}

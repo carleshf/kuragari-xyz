@@ -1,0 +1,19 @@
+{
+	"title": "Tronc de cendres",
+	"subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+	"year": "2021",
+	"lang": "cat",
+	"summary": "Durant els dies més profunds de l'hivern, les famílies de Winterbreak es reuneixen per a celebrar l'arribada del nou any. Lathánder honra aquestes trobades fent entrega de petits obsequis i simples joguines a la mainada a través d'una especial i característica festivitat. Malauradament, el dimoni Sauletars ha aconseguit corrompre el vincle de Lathánder amb Wintebreak i pretén alimentar-se de la tristesa i del neguit de la quitxalla de la ciutat.",
+	"system": "D&D 5e",
+	"nplayers": "4",
+	"etime": "4 hores",
+	"available": true,
+ 	"link": {
+		"platform": "Dungeon Masters Guild",
+		"url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres"
+	},
+	"slug": "tronc-de-cendres",
+	"global_slug": "log-of-ashes",
+	"type": "one-shot",
+ 	"collection": "Canço d'hivern"
+}

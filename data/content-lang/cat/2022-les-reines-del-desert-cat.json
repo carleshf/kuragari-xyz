@@ -1,0 +1,19 @@
+{
+	"title": "Les reines del desert",
+	"subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+	"year": "2022",
+	"lang": "cat",
+	"summary": "Com cada any, les governantes dels tres països de la regió d'Orienté han organitzat el conclave secret per seguir amb l'aliança que fa anys van començar i que tanta pau i prosperitat ha portat a la regió. Tot i això, el gelós i avariciós monarca d'un país veí màquina sabotejar la seva trobada i, per fi, conquerir Orienté.",
+	"system": "D&D 5e",
+	"nplayers": "3",
+	"etime": "3-4 horas",
+	"available": true,
+ 	"link": {
+		"platform": "Dungeon Masters Guild",
+		"url": "https://www.dmsguild.com/product/472894/Les-reines-del-desert"
+	},
+	"slug": "les-reines-del-desert",
+	"global_slug": "queens-of-the-desert",
+	"type": "one-shot",
+ 	"collection": "Canço d'hivern"
+}

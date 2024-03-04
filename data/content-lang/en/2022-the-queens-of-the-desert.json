@@ -1,0 +1,19 @@
+{
+	"title": "The queens of the desert",
+	"subtitle": "A short adventure for DnD 5e inspired in a Christmas song.",
+	"year": "2022",
+	"lang": "en",
+	"summary": "Like every year, the rulers of the three kingdoms of the Orienté have organized their secret conclave to continue with the alliance that began years ago. This alliance has brought so much peace and prosperity to the three kingdoms. However, the jealous and greedy monarch of a neighboring country plans to sabotage the conclave and seize the three kingdoms in Orienté.",
+	"system": "D&D 5e",
+	"nplayers": "3",
+	"etime": "4 hours",
+	"available": true,
+ 	"link": {
+		"platform": "Dungeon Masters Guild",
+		"url": "https://www.dmsguild.com/product/417733/The-queens-of-the-desert"
+	},
+	"slug": "the-queens-of-the-desert",
+	"global_slug": "queens-of-the-desert",
+	"type": "one-shot",
+ 	"collection": "Winter song"
+}

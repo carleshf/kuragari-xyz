@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+	<div class="row">
+  	<!--<div class="col-md-1">
+  	</div>-->
+  	<div class="col-md-12">
+      {% for cll in data.collections %}
+      <div class="row">
+      <h3>{{ cll }}</h3>
+      </div>
+  		<div class="row">       
+    		{% for ply in data.plays %}
+        {% if ply.collection == cll %}
+    		<div class="col-sm-3">
+    		  <div class="card">
+            <img src="{{ url_for( 'static', filename = 'content-img/' + ply.year + '-' + ply.global_slug + '-' + ply.lang + '.png' ) }}" class="card-img-top" alt="{{ ply.title }}">
+            <div class="card-body">
+    				  <h5 class="card-title">{{ ply.title }}</h5>
+    					<!--<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+              <p>
+                {% if ply.available %}
+                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span>
+                {% else %}
+                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span><span class="badge bg-warning text-dark">Not avialable</span>
+                {% endif %}
+                
+              </p>
+    					<a href="{{ url_for( 'module', title = ply.slug, lang = ply.lang ) }}" class="btn btn btn-outline-secondary btn-sm">Ver detalles</a>
+   					</div>
+  				</div>
+    		</div>
+        {% endif %}
+    		{% endfor %}
+  		</div>
+      {% endfor %}
+    </div>
+  	<!--<div class="col-md-1">
+	  </div>-->
+	</div>
+</div>
+{% endblock %}
