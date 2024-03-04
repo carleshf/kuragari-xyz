@@ -1,0 +1,182 @@
+[
+    {
+        "global_slug": "log-of-ashes",
+        "global_collection": "winter-song",
+        "type": "one-shot",
+        "system": "D&D 5e",
+        "year": "2021",
+        "nplayers": "4",
+        "etime": "4 horas",
+        "available": true,
+        "lang_options": [
+            {
+                "lang": "es",
+                "title": "Tronco de ceniza",
+                "subtitle": "Una aventura breve para DnD 5e con un trasfondo navideño.",                
+                "summary": "Durante los días de más profundo invierno, las familias de Winterbreak se reúnen para celebrar la llegada del nuevo año. Lathánder honra estos encuentros haciendo entrega de pequeños juguetes a los niños a través de una especial y caracterítsica festividad. Sin embargo, el demonio Sauletars ha conseguido corromper el vínculo de Lathánder con Wintebreak y pretende alimentarse de la tristeza y del desasosiego de los niños de la ciudad.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/378158/Tronco-de-ceniza"
+                },
+                "lang_slug": "tronco-de-ceniza",   
+                "lang_collection": "Canción de invierno"
+            },
+            {
+                "lang": "en",
+                "title": "Log of ashes",
+                "subtitle": "A short adventure for DnD 5e inspired in a Christmas song.",
+                "summary": "During the deepest days of winter, in the city of Winterbreak, families gather to celebrate the arrival of the new year. Lathander honors these encounters by delivering small toys to children through a special and characteristic holiday. However, the demon Sauletars has managed to corrupt Lathander's bond with Wintebreak and tries to feed on the sadness of the children of the city.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/382202/Log-of-ashes"
+                },
+                "lang_slug": "log-of-ashes",
+                "lang_collection": "Winter song"
+            },
+            {
+                "lang": "cat",
+                "title": "Tronc de cendres",
+                "subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+                "summary": "Durant els dies més profunds de l'hivern, les famílies de Winterbreak es reuneixen per a celebrar l'arribada del nou any. Lathánder honra aquestes trobades fent entrega de petits obsequis i simples joguines a la mainada a través d'una especial i característica festivitat. Malauradament, el dimoni Sauletars ha aconseguit corrompre el vincle de Lathánder amb Wintebreak i pretén alimentar-se de la tristesa i del neguit de la quitxalla de la ciutat.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres"
+                },
+                "lang_slug": "tronc-de-cendres",
+                "lang_collection": "Canço d'hivern"
+            }
+        ]
+    },
+    {
+        "global_slug": "the-chalice-of-life",
+        "global_collection": null,
+        "type": "one-shot",
+        "system": "D&D 5e",
+        "year": "2022",
+        "nplayers": "4",
+        "etime": "5-6 horas",
+        "available": true,
+        "lang_options": [
+            {
+                "lang": "es",
+                "title": "El cáliz de la vida",
+                "subtitle": "Una aventura corta para DnD 5e con un pequeño giro oscuro.",
+                "summary": "Tax Manzanaverde es un mediano al que han convertido en trasgo. Pero gracias a sus labores antropológicas - las mismas que lo llevaron a que lo polimorfaran en trasgo - sabe cómo liberarse de esta maldición. Sin embargo, el camino hasta la libertad no es fácil y ha contratado a cuatro mercenarios para que le vigilen la espalda.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/414343/El-Caliz-de-la-Vida"
+                },
+                "lang_slug": "el-caliz-de-la-vida",
+                "lang_collection": null
+            },
+            {
+                "lang": "cat",
+                "title": "El Calze de la Vida",
+                "subtitle": "Una aventura curta per a DnD 5e amb un petit gir fosc.",
+                "summary": "Tax Pomaverda és un mitjà antropòleg amb un gran afany per a la cultura gòblin. Una de les seves darreres aventures no va ser anat tal i com s'havia plantejat i va acabar convertit en un goblin. Però gràcies a la tasques antropològiques - les mateixes que el van portar a que el van ficar en problemes - sap com alliberar-se d'aquesta maledicció. Tot i això, el camí fins a la llibertat no és fàcil i ha contractat un grup de mercenaris perquè el vigilin l'esquena.",
+                 "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/459047/El-Calze-de-la-Vida"
+                },
+                "lang_slug": "el-calze-de-la-vida",
+                "lang_collection": null
+            }
+        ]
+    },
+    {
+        "global_slug": "queens-of-the-desert",
+        "global_collection": "winter-song",
+        "type": "one-shot",
+        "system": "D&D 5e",
+        "year": "2022",
+        "nplayers": "3",
+        "etime": "4 hours",
+        "available": true,
+        "lang_options": [
+            {
+                "lang": "en",
+                "title": "The queens of the desert",
+                "subtitle": "A short adventure for DnD 5e inspired in a Christmas song.",
+                "summary": "Like every year, the rulers of the three kingdoms of the Orienté have organized their secret conclave to continue with the alliance that began years ago. This alliance has brought so much peace and prosperity to the three kingdoms. However, the jealous and greedy monarch of a neighboring country plans to sabotage the conclave and seize the three kingdoms in Orienté.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/417733/The-queens-of-the-desert"
+                },
+                "lang_slug": "the-queens-of-the-desert",
+                "lang_collection": "Winter song"
+            },
+            {
+                "lang": "es",
+                "title": "Las reinas del desierto",
+                "subtitle": "Una aventura breve para DnD 5e con un trasfondo navideño.",
+                "summary": "Como cada año, las gobernantas de los tres países de la región de Orienté, han organizado su conclave para seguir con la alianza que hace años empezaron y que tanta paz y prosperidad ha llevado a la región. Soin embargo, el celoso y avaricioso monarca de un país vecíno maquina sabotear su encoentro para, al fin, conquistar Orienté.",
+                 "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto"
+                },
+                "lang_slug": "las-reinas-del-desierto",
+                "lang_collection": "Canción de invierno"
+            },
+            {
+                "lang": "cat",
+                "title": "Les reines del desert",
+                "subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+                "summary": "Com cada any, les governantes dels tres països de la regió d'Orienté han organitzat el conclave secret per seguir amb l'aliança que fa anys van començar i que tanta pau i prosperitat ha portat a la regió. Tot i això, el gelós i avariciós monarca d'un país veí màquina sabotejar la seva trobada i, per fi, conquerir Orienté.",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/472894/Les-reines-del-desert"
+                },
+                "lang_slug": "les-reines-del-desert",
+                "lang_collection": "Canço d'hivern"
+            }
+        ]
+    },
+    {
+        "global_slug": "evercold-heroes",
+        "global_collection": "winter-song",
+        "type": "one-shot",
+        "system": "D&D 5e",
+        "year": "2023",
+        "nplayers": "4",
+        "etime": "5 hours",
+        "available": true,
+        "lang_options": [
+            {
+                "lang": "en",
+                "title": "Evercold' Heroes",
+                "subtitle": "A short adventure for DnD 5e inspired in a Christmas song.",
+                "summary": "Evercold' village has lived peacefully and prosperous for years. One hundred and twenty-one years ago the last great battle against the tyranny of the Earl-Duke of Darckcorner was fought. In the name of the heroes who brought that peace, the citizens of Evercold celebrate the end of the year with family and friends while praising life and joy. Around thirty before the end of the year, slight earthquakes have impacted the town of Evercold. As the days go by, the tremors are more intent and seem to come from Argamuth, where the battle against Dackcorner ended. What is causing those tremors? Is Evercold's era of peace and prosperity ending?",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/461800/Evercold-Heroes"
+                },
+                "lang_slug": "evercold-heroes",
+                "lang_collection": "Winter song"
+            },
+            {
+                "lang": "es",
+                "title": "Los héroes de Evercold",
+                "subtitle": "Una aventura breve para DnD 5e con un trasfondo navideño.",
+                "summary": "Hace años que la villa de Evercold vive una pacífica y próspera era. Hace ciento y veintiún años que se libró la última gran batalla contra la tiranía del Conde-duque de Darckcorner. En nombre de los héroes que trajeron esa paz, los ciudadanos de Evercold celebran el fin de año entre familiares y amigos mientras alaban la vida y la alegría. A una treintena de finales de año, leves terremotos han impactado a la villa de Evercold. A medida que pasan los días, los temblores son más intentos y pareciera que provienen de Argamuth, dónde terminó la batalla contra Dackcorner. ¿Qué es lo que provoca esos temblores? ¿Termina la era de paz y prosperidad de Evercold?",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold"
+                },
+                "lang_slug": "los-heroes-de-evercold",
+                "lang_collection": "Canción de invierno"
+            },
+            {
+                "lang": "cat",
+                "title": "Els herois d'Evercold",
+                "subtitle": "Una aventura breu per a DnD 5e amb un rerefons nadalenc.",
+                "summary": "Fa anys que la vila d'Evercold viu una pacífica i pròspera era. D'aquí poc farà cent i vint-i-un anys que es va lliurar la darrera gran batalla contra la tirania del Comte-duc de Darckcorner. En nom dels herois que van portar aquesta pau, els ciutadans d'Evercold celebren el Cap d'Any entre familiars i amics mentre lloen la vida i l'alegria. A una trentena de finals d'any, lleus terratrèmols han impactat la vila d'Evercold. A mesura que passen els dies, els tremolors són més intents i sembla que provenen d'Argamuth, on va acabar la batalla contra Dackcorner. Què és el que provoca aquests tremolors? Acaba l'era de pau i prosperitat d'Evercold?",
+                "link": {
+                    "platform": "Dungeon Masters Guild",
+                    "url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold"
+                },
+                "lang_slug": "els-herois-evercold",
+                "lang_collection": "Canço d'hivern"
+            }
+        ]
+    }
+]

@@ -5,51 +5,47 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="row">
-        <h2>{{ ply.title }}</h2>
-        <h5><em>{{ ply.subtitle }}</em></h5>
-        <h6>{{ ply.collection }} ({{ ply.year }})</h6>
-      </div>
-      <div class="row">
-        <div class="col-5">
-            <h5>Resumen</h5>
-            <p>{{ ply.summary }}</p>
-            <h5>Detalles</h5>
-            <ul>
-              <li>Numero de jugadores: {{ ply.nplayers }}</li>
-              <li>Tiempo de juego estimado: {{ ply.etime }}</li>
-              {% if ply.available %}
-              <li> Descarga: <a href="{{ ply.link.url }}" target="_blank">{{ ply.link.platform }}</a></li>
-              {% endif %}
-            </ul>
-            {% if are_other %}
-            <h5>En la misma colección</h5>
-            <ul>
-              {% for oply in same_collection %}
-              <li><a href="{{ url_for( 'module', title = oply[ 1 ], lang = ply.lang ) }}">({{ oply[ 2 ] }}) {{ oply[ 0 ] }}</a></li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-        </div>
-        <div class="col-1"></div>
-        <div class="col-5">
-          <div class="row">
-            <a href="{{ url_for( 'static', filename = 'content-img/' + ply.year + '-' + ply.global_slug + '-' + ply.lang + '-landscape.png' ) }}" target="_blank">
-              <img src="{{ url_for( 'static', filename = 'content-img/' + ply.year + '-' + ply.global_slug + '-' + ply.lang + '-landscape.png' ) }}" class="img-fluid" alt="{{ ply.title }}">
-            </a>
-            <p>
-              <span class="badge bg-light text-dark">{{ ply.lang }}</span>
-              {% for lang in alternative_languages %}
-              <a href="{{ url_for( 'module', title = lang[ 1 ], lang = lang[ 0 ] ) }}"><span class="badge bg-secondary">{{ lang[ 0 ] }}</span></a>
-              {% endfor %}
-              <span class="badge bg-dark">{{ ply.system }}</span>
-              <span class="badge bg-primary">{{ ply.type }}</span>
-            </p>
-          </div>
-          <div class="row">
-            <a href="{{ url_for( 'hello' ) }}" role="button" class="btn btn-outline-primary btn-lg btn-block"><span class="fa-solid fa-store" aria-hidden="true"></span></a>
-          </div>
-        </div> 
-      </div>
+				<h2>{{ mld.module.title }}</h2>
+				<h5><em>{{ mld.module.subtitle }}</em></h5>
+				<h6>{{ mld.module.lang_collection }} ({{ mld.module.year }})</h6>
+			</div>
+			<div class="row">
+				<div class="col-5">
+					<h5>{{ labels.lbl_mld_summary }}</h5>
+					<p>{{ mld.module.summary }}</p>
+					<h5>{{ labels.lbl_mld_details }}</h5>
+					<ul>
+						<li>{{ labels.lbl_mld_nply }} {{ mld.module.nplayers }}</li>
+						<li>{{ labels.lbl_mld_pt }} {{ mld.module.etime }}</li>
+						{% if mld.module.available %}
+						<li>{{ labels.lbl_mld_download }} <a href="{{ mld.module.link.url }}" target="_blank">{{ mld.module.link.platform }}</a></li>
+						{% endif %}
+					</ul>
+					{% if labels.lbl_mld_similar|length > 0 %}
+					<h5>{{ labels.lbl_mld_similar }}</h5>
+					<ul>
+					  {% for oply in mld.collection %}
+					  <li><a href="{{ url_for( 'module', title = oply.lang_slug ) }}">({{ oply.year }}) {{ oply.title }}</a></li>
+					  {% endfor %}
+					</ul>
+					{% endif %}
+				</div>
+				<div class="col-1"></div>
+				<div class="col-5">
+					<div class="row">
+						<a href="{{ url_for( 'static', filename = 'content-img/' + mld.module.year + '-' + mld.module.global_slug + '-' + mld.module.lang + '-landscape.png' ) }}" target="_blank">
+							<img src="{{ url_for( 'static', filename = 'content-img/' + mld.module.year + '-' + mld.module.global_slug + '-' + mld.module.lang + '-landscape.png' ) }}" class="img-fluid" alt="{{ mld.module.title }}">
+						</a>
+						<p>
+							<span class="badge bg-light text-dark">{{ mld.module.lang }}</span>
+							{% for lang in mld.lang %}
+								<a href="{{ url_for( 'module', title = lang.lang_slug ) }}"><span class="badge bg-secondary">{{ lang.lang }}</span></a>
+							{% endfor %}
+							<span class="badge bg-dark">{{ mld.module.system }}</span>&nbsp;<span class="badge bg-primary">{{ mld.module.type }}</span>
+						</p>
+					</div>
+				</div>
+			</div> 
 		</div>
 	</div>
 </div>

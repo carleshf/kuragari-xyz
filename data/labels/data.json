@@ -1,0 +1,92 @@
+{
+    "lbl_nav_catalogue": {
+        "en": "Catalogue",
+        "es": "Catálogo",
+        "cat": "Catàleg"
+    },
+    "lbl_nav_events": {
+        "en": "Events",
+        "es": "Eventos",
+        "cat": "Esdeveniments"
+    },
+    "lbl_nav_language": {
+        "en": "Language",
+        "es": "Idioma",
+        "cat": "Idioma"
+    },
+    "lbl_nav_language_en": {
+        "en": "English",
+        "es": "Inglés",
+        "cat": "Anglès"
+    },
+    "lbl_nav_language_es": {
+        "en": "Spanish",
+        "es": "Español",
+        "cat": "Espanyol"
+    },
+    "lbl_nav_language_cat": {
+        "en": "Catalan",
+        "es": "Catalán",
+        "cat": "Català"
+    },
+    "lbl_ctl_details": {
+        "en": "See details",
+        "es": "Ver detalles",
+        "cat": "Veure detalls"
+    },
+    "lbl_ctl_not_available": {
+        "en": "Not Available",
+        "es": "No disponible",
+        "cat": "No disponible"
+    },
+    "lbl_mld_summary": {
+        "en": "Summary",
+        "es": "Resumen",
+        "cat": "Resum"
+    },
+    "lbl_mld_details": {
+        "en": "Details",
+        "es": "Detalles",
+        "cat": "Detalls"
+    },
+    "lbl_mld_similar": {
+        "en": "In the same collection",
+        "es": "En la misma colección",
+        "cat": "A la mateixa col·lecció"
+    },
+    "lbl_mld_nply": {
+        "en": "Number of players:",
+        "es": "Numero de jugadores:",
+        "cat": "Nombre de jugadors:"
+    },
+    "lbl_mld_pt": {
+        "en": "Estimated playing time:",
+        "es": "Tiempo de juego estimado:",
+        "cat": "Temps de joc estimat:"
+    },
+    "lbl_mld_download": {
+        "en": "Download:",
+        "es": "Descarga:",
+        "cat": "Descàrrega:"
+    },
+    "lbl_evt_title": {
+        "en": "Events",
+        "es": "Eventos",
+        "cat": "Esdeveniments"
+    }, 
+    "lbl_evt_header": {
+        "en": "Where you can find me out there 😎",
+        "es": "Dónde podéis encontrarme por ahí 😎",
+        "cat": "On em podeu trobar allí fora 😎"
+    },
+    "lvl_evt_promotion": {
+        "en": "🤝 My contribution to this event was promoted by",
+        "es": "🤝 Mi contribución a este evento fue promovida por",
+        "cat": "🤝 La meva contribució a aquest esdeveniment va ser promoguda per"
+    },
+    "lvl_evt_not_available": {
+        "en": "Information not available at the moment.",
+        "es": "Información no disponible por el momento.",
+        "cat": "Informació no disponible en aquests moments."
+    }
+}
