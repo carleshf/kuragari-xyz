@@ -2,17 +2,32 @@
 # -*- coding: utf-8 -*-
 # coding: utf-8
 
-import os
-import json
-import codecs
+#import os
+#import json
+#import codecs
 
-from datetime import datetime
+#from datetime import datetime
 
-events_file = '/home/carleshf/kuragari-xyz/data/events/events.json'
-content_folder = '/home/carleshf/kuragari-xyz/data/content-lang'
-main_language = 'es'
+#events_file = '/home/carleshf/kuragari-xyz/data/events/events.json'
+#content_folder = '/home/carleshf/kuragari-xyz/data/content-lang'
+
+from .events import load as load_events
+from .labels import load as load_labels, labels_lang
+from .modules import load as load_modules
+
+__language__ = 'es'
+__allowed_languages__ = [ 'cat', 'es', 'en' ]
 
 
+def get_lang():
+    return __language__
+
+def set_lang( lang ):
+    global __language__
+    if lang in __allowed_languages__:
+      __language__ = lang
+
+"""
 def _load_content( folder_lang ):
   rst = {}
   for lng in os.listdir( folder_lang ):
@@ -60,21 +75,4 @@ def create_rows_plays( plays, n ):
       ii = 0
       rst.append( [] )
   return rst
-
-
-
-def events_loader():
-  with open( events_file, 'r' ) as fr:
-    cnt = json.load( fr )
-  cnt = sorted( cnt, key = lambda x: x[ 'order_date' ] )[ ::-1 ]
-  for ii in range( len( cnt ) ):
-    cnt[ ii ][ 'event' ][ 'slug' ] = 's' + '-'.join( cnt[ ii ][ 'event' ][ 'title' ].strip().split() )
-    for jj in range( len( cnt[ ii ][ 'content' ] ) ):
-      cnt[ ii ][ 'content' ][ jj ][ 'date' ] = datetime.strptime( cnt[ ii ][ 'content' ][ jj ][ 'date' ], '%Y-%m-%dT%H:%M' )
-    cnt[ ii ][ 'content' ] = sorted( cnt[ ii ][ 'content' ], key = lambda x: x[ 'date' ] )[ ::-1 ]
-    for jj in range( len( cnt[ ii ][ 'content' ] ) ):
-      if cnt[ ii ][ 'content' ][ jj ][ 'date' ].strftime("%H:%M") == '00:00':
-        cnt[ ii ][ 'content' ][ jj ][ 'date' ] = cnt[ ii ][ 'content' ][ jj ][ 'date' ].strftime( "%Y-%m-%d" )
-      else:
-        cnt[ ii ][ 'content' ][ jj ][ 'date' ] = cnt[ ii ][ 'content' ][ jj ][ 'date' ].strftime( "%Y-%m-%d, %H:%M" )
-  return cnt
+"""

@@ -4,7 +4,7 @@
 <div class="container">
 	<div class="row">
   	<div class="col-md-12">
-      {% for pck in plays %}
+      {% for pck in mlds %}
   		<div class="row"> 
     		{% for ply in pck %}
     		<div class="col-sm-4">
@@ -17,10 +17,10 @@
                 {% if ply.available %}
                 <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span>
                 {% else %}
-                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span><span class="badge bg-warning text-dark">Not avialable</span>
+                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span><span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
                 {% endif %}
               </p>
-    					<a href="{{ url_for( 'module', title = ply.slug, lang = ply.lang ) }}" class="btn btn btn-outline-secondary btn-sm">Ver detalles</a>
+    					<a href="{{ url_for( 'module', title = ply.slug, lang = ply.lang ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>
    					</div>
   				</div>
     		</div>

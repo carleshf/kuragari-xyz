@@ -1,13 +1,13 @@
 [
   {
-    "event": { "title": "2024 RoleDCon", "url": "" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "event": { "title": "2024 RoleDCon", "url": null },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2024-04-28T00:00",
     "content": [ ]
   },
   {
     "event": { "title": "2024 Shadowcon", "url": "https://shadowlands.es/shadowcon-2024.html" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2024-04-12T00:00",
     "content": [ ]
   },
@@ -21,7 +21,7 @@
         "lang": "Català",
         "type": "One-Shot",
         "title": "Els millors focs artificials de la Comarca",
-        "url": "",
+        "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }, {
         "metatype": "direction",
@@ -29,13 +29,13 @@
         "lang": "Català",
         "type": "One-Shot",
         "title": "Carters involuntaris",
-        "url": "",
+        "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }
     ]
   },
   {
-    "event": { "title": "2024 ALC Stronghold", "url": "" },
+    "event": { "title": "2024 ALC Stronghold", "url": null },
     "promotion": { "status": "no", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
     "order_date": "2024-01-01T00:00",
     "content": [ {
@@ -53,7 +53,7 @@
         "lang": "Español",
         "type": "One-Shot",
         "title": "La reserva de fuegos artificiales de Gandalf",
-        "url": "",
+        "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }
     ]
@@ -107,7 +107,7 @@
   },
   {
     "event": { "title": "2023 Shadowcon", "url": "https://shadowlands.es/shadowcon-2023/" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2023-06-11T00:00",
     "content": [ {
         "metatype": "player",
@@ -115,7 +115,7 @@
         "lang": "Español",
         "type": "One-Shot",
         "title": "Donde cabalgaron nuestros ancestros",
-        "url": "",
+        "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }, {
         "metatype": "player",
@@ -131,14 +131,14 @@
         "lang": "Español",
         "type": "One-Shot",
         "title": "Escuece como la sal (Voirlan)",
-        "url": "",
+        "url": null,
         "system": "D&D 5e"
       }
     ]
   },
   {
     "event": { "title": "2023 Jornadas PORTICO", "url": "https://www.aefcft.com/jornadas-portico-2023/" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2023-02-25T00:00",
     "content": [ {
         "metatype": "direction",
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "event": { "title": "2023 ALC Stronghold", "url": "" },
+    "event": { "title": "2023 ALC Stronghold", "url": null },
     "promotion": { "status": "no", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
     "order_date": "2023-01-01T00:00",
     "content": [ {
@@ -198,7 +198,7 @@
   },
   {
     "event": { "title": "2022 DAU Barcelona", "url": "https://www.barcelona.cat/daubarcelona" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2022-11-19T00:00",
     "content": [ {
         "metatype": "player",
@@ -213,7 +213,7 @@
   },
   {
     "event": { "title": "2022 Un Dungeon en Una Página", "url": "https://sites.google.com/view/dungeonpagina/edici%C3%B3n-2022" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2022-11-15T00:00",
     "content": [ {
         "metatype": "creation",
@@ -228,7 +228,7 @@
   },
   {
     "event": { "title": "2022 One Page Dungeon Contest", "url": "https://www.dungeoncontest.com/" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2022-11-01T00:00",
     "content": [ {
         "metatype": "creation",
@@ -258,7 +258,7 @@
   },
   {
     "event": { "title": "2022 Maydays Charity Convention", "url": "https://d8summit.org/maydays/" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2022-06-24T00:00",
     "content": [ {
         "metatype": "player",
@@ -289,7 +289,7 @@
   },
   {
     "event": { "title": "2021 Un Dungeon en Una Página", "url": "https://sites.google.com/view/dungeonpagina/ediciones-anteriores/2021" },
-    "promotion": { "status": "no", "name": "", "url": "" },
+    "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2021-11-15T00:00",
     "content": [ {
         "metatype": "creation",

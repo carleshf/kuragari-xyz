@@ -5,8 +5,8 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="row">
-        <h2>Events</h2>
-        <p>Where you can find me out there 😎</p>
+        <h2>{{ labels.lbl_evt_title }}</h2>
+        <p>{{ labels.lbl_evt_header }}</p>
       </div>
       <div class="row">
         <div class="col-12">
@@ -22,17 +22,17 @@
                 <div class="accordion-body">
                   {% if evt.promotion.status == 'yes' %}
                   <div class="alert alert-secondary" role="alert">
-                    🤝 My contribution to this event was promoted by <a href="{{ evt.promotion.url }}" target="_black" class="link-danger">{{ evt.promotion.name }}</a>
+                    {{ labels.lvl_evt_promotion }} <a href="{{ evt.promotion.url }}" target="_black" class="link-danger">{{ evt.promotion.name }}</a>
                   </div>
                   {% endif %}
                   {% if evt.content|length == 0 %}
                   <div class="alert alert-warning" role="alert">
-                    Information not available at the moment.
+                    {{ labels.lvl_evt_not_available }}
                   </div>
                   {% else %}
                   <ul>
-                    {% if evt.url != '' %}
-                      <li>🌐 <a href="{{ evt.event.url}}" target="_blank" class="link-secondary">{{ evt.event.title }}'s web site</a></li>
+                    {% if evt.event.url is not none %}
+                      <li>🌐 <a href="{{ evt.event.url }}" target="_blank" class="link-secondary">{{ evt.event.title }}'s web site</a></li>
                     {% endif %}
                     {% for cnt in evt.content %}
                       {% if cnt.url == '' %}
