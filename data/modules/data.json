@@ -1,14 +1,14 @@
 [
     {
-        "global-slug": "log-of-ashes",
-        "global-collection": "winter-song",
+        "global_slug": "log-of-ashes",
+        "global_collection": "winter-song",
         "type": "one-shot",
         "system": "D&D 5e",
         "year": "2021",
         "nplayers": "4",
         "etime": "4 horas",
         "available": true,
-        "lang-options": [
+        "lang_options": [
             {
                 "lang": "es",
                 "title": "Tronco de ceniza",
@@ -18,8 +18,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/378158/Tronco-de-ceniza"
                 },
-                "lang-slug": "tronco-de-ceniza",   
-                "lang-collection": "Canción de invierno"
+                "lang_slug": "tronco-de-ceniza",   
+                "lang_collection": "Canción de invierno"
             },
             {
                 "lang": "en",
@@ -30,8 +30,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/382202/Log-of-ashes"
                 },
-                "lang-slug": "log-of-ashes",
-                "lang-collection": "Winter song"
+                "lang_slug": "log-of-ashes",
+                "lang_collection": "Winter song"
             },
             {
                 "lang": "cat",
@@ -42,21 +42,21 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres"
                 },
-                "slug": "tronc-de-cendres",
-                "lang-collection": "Canço d'hivern"
+                "lang_slug": "tronc-de-cendres",
+                "lang_collection": "Canço d'hivern"
             }
         ]
     },
     {
-        "global-slug": "the-chalice-of-life",
-        "global-collection": null,
+        "global_slug": "the-chalice-of-life",
+        "global_collection": null,
         "type": "one-shot",
         "system": "D&D 5e",
         "year": "2022",
         "nplayers": "4",
         "etime": "5-6 horas",
         "available": true,
-        "lang-options": [
+        "lang_options": [
             {
                 "lang": "es",
                 "title": "El cáliz de la vida",
@@ -66,8 +66,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/414343/El-Caliz-de-la-Vida"
                 },
-                "lang-slug": "el-caliz-de-la-vida",
-                "lang-collection": "Inconexas"
+                "lang_slug": "el-caliz-de-la-vida",
+                "lang_collection": null
             },
             {
                 "lang": "cat",
@@ -78,22 +78,21 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/459047/El-Calze-de-la-Vida"
                 },
-                "lang-slug": "el-calze-de-la-vida",
-                "lang-collection": "Inconnexes"
+                "lang_slug": "el-calze-de-la-vida",
+                "lang_collection": null
             }
-            
         ]
     },
     {
-        "global-slug": "queens-of-the-desert",
-        "global-collection": "winter-song",
+        "global_slug": "queens-of-the-desert",
+        "global_collection": "winter-song",
         "type": "one-shot",
         "system": "D&D 5e",
         "year": "2022",
         "nplayers": "3",
         "etime": "4 hours",
         "available": true,
-        "lang-options": [
+        "lang_options": [
             {
                 "lang": "en",
                 "title": "The queens of the desert",
@@ -103,8 +102,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/417733/The-queens-of-the-desert"
                 },
-                "lang-slug": "the-queens-of-the-desert",
-                "lang-collection": "Winter song"
+                "lang_slug": "the-queens-of-the-desert",
+                "lang_collection": "Winter song"
             },
             {
                 "lang": "es",
@@ -115,8 +114,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto"
                 },
-                "lang-slug": "las-reinas-del-desierto",
-                "lang-collection": "Canción de invierno"
+                "lang_slug": "las-reinas-del-desierto",
+                "lang_collection": "Canción de invierno"
             },
             {
                 "lang": "cat",
@@ -127,21 +126,21 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/472894/Les-reines-del-desert"
                 },
-                "lang-slug": "les-reines-del-desert",
-                "lang-collection": "Canço d'hivern"
+                "lang_slug": "les-reines-del-desert",
+                "lang_collection": "Canço d'hivern"
             }
         ]
     },
     {
-        "global-slug": "evercold-heroes",
-        "global-collection": "winter-song",
+        "global_slug": "evercold-heroes",
+        "global_collection": "winter-song",
         "type": "one-shot",
         "system": "D&D 5e",
         "year": "2023",
         "nplayers": "4",
         "etime": "5 hours",
         "available": true,
-        "lang-options": [
+        "lang_options": [
             {
                 "lang": "en",
                 "title": "Evercold' Heroes",
@@ -151,8 +150,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/461800/Evercold-Heroes"
                 },
-                "lang-slug": "evercold-heroes",
-                "lang-collection": "Winter song"
+                "lang_slug": "evercold-heroes",
+                "lang_collection": "Winter song"
             },
             {
                 "lang": "es",
@@ -163,8 +162,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold"
                 },
-                "lang-slug": "los-heroes-de-evercold",
-                "lang-collection": "Canción de invierno"
+                "lang_slug": "los-heroes-de-evercold",
+                "lang_collection": "Canción de invierno"
             },
             {
                 "lang": "cat",
@@ -175,8 +174,8 @@
                     "platform": "Dungeon Masters Guild",
                     "url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold"
                 },
-                "lang-slug": "els-herois-evercold",
-                "lang-collection": "Canço d'hivern"
+                "lang_slug": "els-herois-evercold",
+                "lang_collection": "Canço d'hivern"
             }
         ]
     }

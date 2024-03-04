@@ -3,32 +3,31 @@
 {% block content %}
 <div class="container">
 	<div class="row">
-  	<div class="col-md-12">
-      {% for pck in mlds %}
-  		<div class="row"> 
-    		{% for ply in pck %}
-    		<div class="col-sm-4">
-    		  <div class="card">
-            <img src="{{ url_for( 'static', filename = 'content-img/' + ply.year + '-' + ply.global_slug + '-' + ply.lang + '.png' ) }}" class="card-img-top" alt="{{ ply.title }}">
-            <div class="card-body">
-    				  <h5 class="card-title">{{ ply.title }}</h5>
-    					<!--<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
-              <p>
-                {% if ply.available %}
-                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span>
-                {% else %}
-                <span class="badge bg-secondary">{{ ply.year }}</span><span class="badge bg-dark">{{ ply.system }}</span><span class="badge bg-primary">{{ ply.type }}</span><span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
-                {% endif %}
-              </p>
-    					<a href="{{ url_for( 'module', title = ply.slug, lang = ply.lang ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>
-   					</div>
-  				</div>
-    		</div>
-    		{% endfor %}
-  		</div>
-      <div class="row">&nbsp;</div>
-      {% endfor %}
-    </div>
+		<div class="col-md-12">
+			{% for row in plys %}
+				<div class="row">
+					{% for mdl in row %}
+						<div class="col-sm-4">
+							<div class="card">
+								<img src="{{ url_for( 'static', filename = 'content-img/' + mdl.year + '-' + mdl.global_slug + '-' + mdl.lang + '.png' ) }}" class="card-img-top" alt="{{ mdl.title }}">
+								<div class="card-body">
+									<h5 class="card-title">{{ mdl.title }}</h5>
+									<p>
+										{% if mdl.available %}
+											<span class="badge bg-light text-dark">{{ mdl.year }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>
+										{% else %}
+											<span class="badge bg-light text-dark">{{ mdl.year }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>&nbsp;<span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
+										{% endif %}
+									</p>
+									<a href="{{ url_for( 'module', title = mdl.lang_slug ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>
+								</div>
+							</div>
+  						</div>
+    				{% endfor %}
+				</div>
+				<div class="row">&nbsp;</div>
+			{% endfor %}
+		</div>
 	</div>
 </div>
 {% endblock %}

@@ -22,7 +22,4 @@ def load( data_path ):
                 cnt[ ii ][ 'content' ][ jj ][ 'date' ] = cnt[ ii ][ 'content' ][ jj ][ 'date' ].strftime( "%Y-%m-%d" )
             else:
                 cnt[ ii ][ 'content' ][ jj ][ 'date' ] = cnt[ ii ][ 'content' ][ jj ][ 'date' ].strftime( "%Y-%m-%d, %H:%M" )
-    print( cnt[ 3 ] )
-    print( cnt[ 3 ][ 'event' ][ 'url' ] )
-    print( cnt[ 3 ][ 'event' ][ 'url' ] is None )
     return cnt

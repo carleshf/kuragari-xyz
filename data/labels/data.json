@@ -54,6 +54,21 @@
         "es": "En la misma colección",
         "cat": "A la mateixa col·lecció"
     },
+    "lbl_mld_nply": {
+        "en": "Number of players:",
+        "es": "Numero de jugadores:",
+        "cat": "Nombre de jugadors:"
+    },
+    "lbl_mld_pt": {
+        "en": "Estimated playing time:",
+        "es": "Tiempo de juego estimado:",
+        "cat": "Temps de joc estimat:"
+    },
+    "lbl_mld_download": {
+        "en": "Download:",
+        "es": "Descarga:",
+        "cat": "Descàrrega:"
+    },
     "lbl_evt_title": {
         "en": "Events",
         "es": "Eventos",
