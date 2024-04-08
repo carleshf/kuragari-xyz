@@ -14,9 +14,9 @@
 									<h5 class="card-title">{{ mdl.title }}</h5>
 									<p>
 										{% if mdl.available %}
-											<span class="badge bg-light text-dark">{{ mdl.year }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>
+											<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>
 										{% else %}
-											<span class="badge bg-light text-dark">{{ mdl.year }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>&nbsp;<span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
+											<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>&nbsp;<span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
 										{% endif %}
 									</p>
 									<a href="{{ url_for( 'module', title = mdl.lang_slug ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>

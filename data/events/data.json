@@ -9,7 +9,23 @@
     "event": { "title": "2024 Shadowcon", "url": "https://shadowlands.es/shadowcon-2024.html" },
     "promotion": { "status": "no", "name": null, "url": null },
     "order_date": "2024-04-12T00:00",
-    "content": [ ]
+    "content": [ {
+        "metatype": "direction",
+        "date": "2024-04-12T16:00",
+        "lang": "Español",
+        "type": "One-Shot",
+        "title": "Los Héroes de Evercold",
+        "url": "https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold",
+        "system": "D&D 5e"
+      }, {
+        "metatype": "direction",
+        "date": "2024-04-13T10:00",
+        "lang": "Español",
+        "type": "One-Shot",
+        "title": "Las Reinas del Desierto",
+        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system": "D&D 5e"
+      } ]
   },
   {
     "event": { "title": "2024 Festival del Joc del Pirineu", "url": "https://festivaljocpirineu.cat/partides-de-rol/" },
