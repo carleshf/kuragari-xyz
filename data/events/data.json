@@ -17,18 +17,36 @@
     "order_date": "2024-04-06T00:00",
     "content": [ {
         "metatype": "direction",
-        "date": "2024-04-06T10:00",
+        "date": "2024-04-06T15:00",
         "lang": "Català",
         "type": "One-Shot",
-        "title": "Els millors focs artificials de la Comarca",
+        "title": "Els millors focs artificials de la Comarca (ELS)",
         "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }, {
         "metatype": "direction",
-        "date": "2024-04-06T12:00",
+        "date": "2024-04-06T10:00",
         "lang": "Català",
         "type": "One-Shot",
-        "title": "Carters involuntaris",
+        "title": "Els millors focs artificials de la Comarca (ELS)",
+        "url": null,
+        "system": "El Anillo Único (2ª Edición)"
+      }, 
+      {
+        "metatype": "direction",
+        "date": "2024-04-06T15:00",
+        "lang": "Català",
+        "type": "One-Shot",
+        "title": "Carters involuntaris (iniciació)",
+        "url": null,
+        "system": "El Anillo Único (2ª Edición)"
+      }, 
+      {
+        "metatype": "direction",
+        "date": "2024-04-06T17:00",
+        "lang": "Català",
+        "type": "One-Shot",
+        "title": "Carters involuntaris (iniciació)",
         "url": null,
         "system": "El Anillo Único (2ª Edición)"
       }
