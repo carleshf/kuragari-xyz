@@ -35,7 +35,7 @@
                       <li>🌐 <a href="{{ evt.event.url }}" target="_blank" class="link-secondary">{{ evt.event.title }}'s web site</a></li>
                     {% endif %}
                     {% for cnt in evt.content %}
-                      {% if cnt.url == '' %}
+                      {% if cnt.url is none %}
                         <li>🎲 {{ cnt.type }} / {{ cnt.title }}
                       {% else %}
                         <li>🎲 {{ cnt.type }} / <a href="{{ cnt.url }}" target="_blank" class="link-success">{{ cnt.title }}</a>
