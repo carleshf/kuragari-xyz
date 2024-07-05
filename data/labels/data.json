@@ -88,5 +88,10 @@
         "en": "Information not available at the moment.",
         "es": "Información no disponible por el momento.",
         "cat": "Informació no disponible en aquests moments."
+    },
+    "lbl_mld_hours": {
+        "en": "hours",
+        "es": "horas",
+        "cat": "hores"
     }
 }

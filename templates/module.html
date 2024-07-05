@@ -20,7 +20,7 @@
 					<h5>{{ labels.lbl_mld_details }}</h5>
 					<ul>
 						<li>{{ labels.lbl_mld_nply }} {{ mld.module.nplayers }}</li>
-						<li>{{ labels.lbl_mld_pt }} {{ mld.module.etime }}</li>
+						<li>{{ labels.lbl_mld_pt }} {{ mld.module.etime }} {{ labels.lbl_mld_hours }}</li>
 						{% if mld.module.available %}
 							<li>{{ labels.lbl_mld_download }} <a href="{{ mld.module.link.url }}" target="_blank">{{ mld.module.link.platform }}</a></li>
 						{% endif %}
