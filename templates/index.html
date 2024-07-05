@@ -19,7 +19,7 @@
 											<span class="badge bg-light text-dark">{{ mdl.system }}</span>&nbsp;<span class="badge bg-light text-dark">{{ mdl.type }}</span>&nbsp;<span class="badge bg-warning text-dark">{{ labels.lbl_ctl_not_available }}</span>
 										{% endif %}
 									</p>
-									<a href="{{ url_for( 'module', title = mdl.lang_slug ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>
+									<a href="{{ url_for( 'module', lang = lang, title = mdl.lang_slug ) }}" class="btn btn btn-outline-secondary btn-sm">{{ labels.lbl_ctl_details }}</a>
 								</div>
 							</div>
   						</div>

@@ -7,7 +7,11 @@
 			<div class="row">
 				<h2>{{ mld.module.title }}</h2>
 				<h5><em>{{ mld.module.subtitle }}</em></h5>
+				{% if mld.module.lang_collection %}
 				<h6>{{ mld.module.lang_collection }} ({{ mld.module.year }})</h6>
+				{% else %}
+				<h6>({{ mld.module.year }})</h6>
+				{% endif %}
 			</div>
 			<div class="row">
 				<div class="col-5">
@@ -18,16 +22,16 @@
 						<li>{{ labels.lbl_mld_nply }} {{ mld.module.nplayers }}</li>
 						<li>{{ labels.lbl_mld_pt }} {{ mld.module.etime }}</li>
 						{% if mld.module.available %}
-						<li>{{ labels.lbl_mld_download }} <a href="{{ mld.module.link.url }}" target="_blank">{{ mld.module.link.platform }}</a></li>
+							<li>{{ labels.lbl_mld_download }} <a href="{{ mld.module.link.url }}" target="_blank">{{ mld.module.link.platform }}</a></li>
 						{% endif %}
 					</ul>
 					{% if labels.lbl_mld_similar|length > 0 %}
-					<h5>{{ labels.lbl_mld_similar }}</h5>
-					<ul>
-					  {% for oply in mld.collection %}
-					  <li><a href="{{ url_for( 'module', title = oply.lang_slug ) }}">({{ oply.year }}) {{ oply.title }}</a></li>
-					  {% endfor %}
-					</ul>
+						<h5>{{ labels.lbl_mld_similar }}</h5>
+						<ul>
+							{% for oply in mld.collection %}
+								<li><a href="{{ url_for( 'module', lang = lang, title = oply.lang_slug ) }}">({{ oply.year }}) {{ oply.title }}</a></li>
+							{% endfor %}
+						</ul>
 					{% endif %}
 				</div>
 				<div class="col-1"></div>
@@ -37,9 +41,12 @@
 							<img src="{{ url_for( 'static', filename = 'content-img/' + mld.module.year + '-' + mld.module.global_slug + '-' + mld.module.lang + '-landscape.png' ) }}" class="img-fluid" alt="{{ mld.module.title }}">
 						</a>
 						<p>
-							<span class="badge bg-light text-dark">{{ mld.module.lang }}</span>
 							{% for lang in mld.lang %}
-								<a href="{{ url_for( 'module', title = lang.lang_slug ) }}"><span class="badge bg-secondary">{{ lang.lang }}</span></a>
+								{% if lang.available %}
+									<a href="{{ url_for( 'module', lang = lang, title = lang.lang_slug ) }}"><span class="badge bg-success">{{ lang.lang }}</span></a>
+								{% else %}
+								<a href="{{ url_for( 'module', lang = lang, title = lang.lang_slug ) }}"><span class="badge bg-danger">{{ lang.lang }}</span></a>
+								{% endif %}
 							{% endfor %}
 							<span class="badge bg-dark">{{ mld.module.system }}</span>&nbsp;<span class="badge bg-primary">{{ mld.module.type }}</span>
 						</p>
