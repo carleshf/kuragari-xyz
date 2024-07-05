@@ -25,8 +25,8 @@
 							<li>{{ labels.lbl_mld_download }} <a href="{{ mld.module.link.url }}" target="_blank">{{ mld.module.link.platform }}</a></li>
 						{% endif %}
 					</ul>
-					{% if labels.lbl_mld_similar|length > 0 %}
-						<h5>{{ labels.lbl_mld_similar }}</h5>
+					{% if mld.collection|length > 0 %}
+						<h5>{{ labels.lbl_mld_similar }} </h5>
 						<ul>
 							{% for oply in mld.collection %}
 								<li><a href="{{ url_for( 'module', lang = lang, title = oply.lang_slug ) }}">({{ oply.year }}) {{ oply.title }}</a></li>
