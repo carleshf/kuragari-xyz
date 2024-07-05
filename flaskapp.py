@@ -6,7 +6,7 @@ from flask import Flask, redirect, request, render_template
 
 from datetime import datetime
 
-data_path = 'C:/Users/carle/Documents/GitHub/kuragari-xyz/data'
+data_path = '/home/carleshf/kuragari-xyz/data'
 
 from data import load_labels, load_modules, load_events, get_lang, set_lang, labels_lang, display_modules_in_rows, get_module
 
