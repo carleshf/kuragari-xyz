@@ -1,354 +1,519 @@
 [
   {
-    "event": { "title": "2024 RoleDCon", "url": null },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2024-04-28T00:00",
-    "content": [ ]
-  },
-  {
-    "event": { "title": "2024 ShadowCon", "url": "https://shadowlands.es/shadowcon-2024.html" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2024-04-12T00:00",
-    "content": [ {
-      "metatype": "jugador",
-      "date": "2024-04-12T16:00",
-      "lang": "Español",
-      "type": "One-Shot",
-      "title": "Eficiencia bajo presión",
-      "url": null,
-      "system": "Cthulhu d100"
-    }, {
-        "metatype": "jugador",
-        "date": "2024-04-13T10:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Raíces y brotes",
-        "url": null,
-        "system": "D&D 5e"
-      }, {
-        "metatype": "direction",
-        "date": "2024-04-13T16:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Los Héroes de Evercold",
-        "url": "https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold",
-        "system": "D&D 5e"
-      }, {
-        "metatype": "direction",
-        "date": "2024-04-14T10:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Las Reinas del Desierto",
-        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
-        "system": "D&D 5e"
-      } ]
-  },
-  {
-    "event": { "title": "2024 Festival del Joc del Pirineu", "url": "https://festivaljocpirineu.cat/partides-de-rol/" },
-    "promotion": { "status": "yes", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
-    "order_date": "2024-04-06T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2024-04-06T15:00",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Els millors focs artificials de la Comarca (ELS)",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }, {
-        "metatype": "direction",
-        "date": "2024-04-07T10:00",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Els millors focs artificials de la Comarca (ELS)",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }, 
-      {
-        "metatype": "direction",
-        "date": "2024-04-07T15:00",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Carters involuntaris (iniciació)",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }, 
-      {
-        "metatype": "direction",
-        "date": "2024-04-07T17:00",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Carters involuntaris (iniciació)",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }
+    "event":{
+      "title":"2024 RoleDCon",
+      "url":null
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2024-04-28T00:00",
+    "content":[
+      
     ]
   },
   {
-    "event": { "title": "2024 ALC Stronghold", "url": null },
-    "promotion": { "status": "no", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
-    "order_date": "2024-01-01T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2024-01-12T17:30",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Tronc de cendres",
-        "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2024 ShadowCon",
+      "url":"https://shadowlands.es/shadowcon-2024.html"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2024-04-12T00:00",
+    "content":[
+      {
+        "metatype":"jugador",
+        "date":"2024-04-12T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Eficiencia bajo presión",
+        "url":null,
+        "system":"Cthulhu d100"
       },
       {
-        "metatype": "direction",
-        "date": "2024-02-16T17:30",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Los mejores fuegos artificales de la Comarca",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }
-    ]
-  },
-  {
-    "event": { "title": "2023 ALC Stronghold Epic Xmas", "url": "https://www.alcstronghold.com/epic-xmas" },
-    "promotion": { "status": "yes", "name": "Shadowlands Ediciones", "url": "https://shadowlands.es/" },
-    "order_date": "2023-12-16T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2023-12-16T10:30",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "El Augurio",
-        "url": "https://shadowlands.es/juego/el-ciclo-del-despertar/",
-        "system": "D&D 5e"
+        "metatype":"jugador",
+        "date":"2024-04-13T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Raíces y brotes",
+        "url":null,
+        "system":"D&D 5e"
       },
       {
-        "metatype": "direction",
-        "date": "2023-12-16T16:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "El Peso de la Culpa",
-        "url": "https://shadowlands.es/juego/el-ciclo-del-despertar/",
-        "system": "D&D 5e"
+        "metatype":"direction",
+        "date":"2024-04-13T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Los Héroes de Evercold",
+        "url":"https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"direction",
+        "date":"2024-04-14T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Las Reinas del Desierto",
+        "url":"https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2023 Fontana by Night", "url": "https://www.alcstronghold.com/fontana-by-night" },
-    "promotion": { "status": "yes", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
-    "order_date": "2023-07-22T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2023-07-22T17:30",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Els heròis d'Evercold",
-        "url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold",
-        "system": "D&D 5e"
-      }, {
-        "metatype": "direction",
-        "date": "2023-07-22T21:30",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Els heròis d'Evercold",
-        "url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2024 Festival del Joc del Pirineu",
+      "url":"https://festivaljocpirineu.cat/partides-de-rol/"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"ALC Stronghold",
+      "url":"https://www.alcstronghold.com/"
+    },
+    "order_date":"2024-04-06T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2024-04-06T15:00",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Els millors focs artificials de la Comarca (ELS)",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
+      },
+      {
+        "metatype":"direction",
+        "date":"2024-04-07T10:00",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Els millors focs artificials de la Comarca (ELS)",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
+      },
+      {
+        "metatype":"direction",
+        "date":"2024-04-07T15:00",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Carters involuntaris (iniciació)",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
+      },
+      {
+        "metatype":"direction",
+        "date":"2024-04-07T17:00",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Carters involuntaris (iniciació)",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
       }
     ]
   },
   {
-    "event": { "title": "2023 ShadowCon", "url": "https://shadowlands.es/shadowcon-2023/" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2023-06-11T00:00",
-    "content": [ {
-        "metatype": "player",
-        "date": "2023-06-11T10:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Donde cabalgaron nuestros ancestros",
-        "url": null,
-        "system": "El Anillo Único (2ª Edición)"
-      }, {
-        "metatype": "player",
-        "date": "2023-06-11T16:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Madame  Zka",
-        "url": "https://shadowlands.es/historias-de-terror-volumen-iii.html",
-        "system": "Cthulhu d100"
-      }, {
-        "metatype": "player",
-        "date": "2023-06-12T10:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Escuece como la sal (Voirlan)",
-        "url": null,
-        "system": "D&D 5e"
+    "event":{
+      "title":"2024 ALC Stronghold",
+      "url":null
+    },
+    "promotion":{
+      "status":"no",
+      "name":"ALC Stronghold",
+      "url":"https://www.alcstronghold.com/"
+    },
+    "order_date":"2024-01-01T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2024-01-12T17:30",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Tronc de cendres",
+        "url":"https://www.dmsguild.com/product/460042/Tronc-de-cendres",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"direction",
+        "date":"2024-02-16T17:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Los mejores fuegos artificales de la Comarca",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
       }
     ]
   },
   {
-    "event": { "title": "2023 Jornadas PORTICO", "url": "https://www.aefcft.com/jornadas-portico-2023/" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2023-02-25T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2023-02-25T10:30",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Las reinas del desierto",
-        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2023 ALC Stronghold Epic Xmas",
+      "url":"https://www.alcstronghold.com/epic-xmas"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"Shadowlands Ediciones",
+      "url":"https://shadowlands.es/"
+    },
+    "order_date":"2023-12-16T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2023-12-16T10:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"El Augurio",
+        "url":"https://shadowlands.es/juego/el-ciclo-del-despertar/",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"direction",
+        "date":"2023-12-16T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"El Peso de la Culpa",
+        "url":"https://shadowlands.es/juego/el-ciclo-del-despertar/",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2023 ALC Stronghold", "url": null },
-    "promotion": { "status": "no", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
-    "order_date": "2023-01-01T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2023-09-15T18:00",
-        "lang": "Català",
-        "type": "One-Shot",
-        "title": "Tronc de cendres",
-        "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2023 Fontana by Night",
+      "url":"https://www.alcstronghold.com/fontana-by-night"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"ALC Stronghold",
+      "url":"https://www.alcstronghold.com/"
+    },
+    "order_date":"2023-07-22T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2023-07-22T17:30",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Els heròis d'Evercold",
+        "url":"https://www.dmsguild.com/product/459046/Els-herois-dEvercold",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"direction",
+        "date":"2023-07-22T21:30",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Els heròis d'Evercold",
+        "url":"https://www.dmsguild.com/product/459046/Els-herois-dEvercold",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 Jugar per la Marató", "url": "https://santsniggurathbcn.wordpress.com/jugar-per-la-marato-2022/" },
-    "promotion": { "status": "yes", "name": "Sants-Niggurath", "url": "https://santsniggurathbcn.wordpress.com" },
-    "order_date": "2022-12-18T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2022-12-18T16:30",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Las reinas del desierto",
-        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2023 ShadowCon",
+      "url":"https://shadowlands.es/shadowcon-2023/"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2023-06-11T00:00",
+    "content":[
+      {
+        "metatype":"player",
+        "date":"2023-06-11T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Donde cabalgaron nuestros ancestros",
+        "url":null,
+        "system":"El Anillo Único (2ª Edición)"
+      },
+      {
+        "metatype":"player",
+        "date":"2023-06-11T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Madame  Zka",
+        "url":"https://shadowlands.es/historias-de-terror-volumen-iii.html",
+        "system":"Cthulhu d100"
+      },
+      {
+        "metatype":"player",
+        "date":"2023-06-12T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Escuece como la sal (Voirlan)",
+        "url":null,
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 Ayudar Jugando", "url": "https://ayudarjugando.org/proyectos/jornadas-solidarias/xxi-jornadas-solidarias/rol-jornadas-xxi/" },
-    "promotion": { "status": "yes", "name": "ALC Stronghold", "url": "https://twitter.com/ALC_Stronghold/status/1598327289288294401?s=20&t=H3GpKydfyvBZTKrmbd_gRA" },
-    "order_date": "2022-12-10T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2022-12-10T16:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "Las reinas del desierto",
-        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2023 Jornadas PORTICO",
+      "url":"https://www.aefcft.com/jornadas-portico-2023/"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2023-02-25T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2023-02-25T10:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Las reinas del desierto",
+        "url":"https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 DAU Barcelona", "url": "https://www.barcelona.cat/daubarcelona" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2022-11-19T00:00",
-    "content": [ {
-        "metatype": "player",
-        "date": "2022-11-19T10:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "La princesa prometida",
-        "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2023 ALC Stronghold",
+      "url":null
+    },
+    "promotion":{
+      "status":"no",
+      "name":"ALC Stronghold",
+      "url":"https://www.alcstronghold.com/"
+    },
+    "order_date":"2023-01-01T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2023-09-15T18:00",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Tronc de cendres",
+        "url":"https://www.dmsguild.com/product/460042/Tronc-de-cendres",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 Un Dungeon en Una Página", "url": "https://sites.google.com/view/dungeonpagina/edici%C3%B3n-2022" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2022-11-15T00:00",
-    "content": [ {
-        "metatype": "creation",
-        "date": "2022-11-15T12:00",
-        "lang": "Español",
-        "type": "Participation",
-        "title": "El color de los héroes",
-        "accessibility": { "tag": "[google drive]", "url": "https://drive.google.com/file/d/1jiyaueIPwW9TsWn_KolIhETmjgRe4HI4/view" },
-        "prize": "Not nominated"
+    "event":{
+      "title":"2022 Jugar per la Marató",
+      "url":"https://santsniggurathbcn.wordpress.com/jugar-per-la-marato-2022/"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"Sants-Niggurath",
+      "url":"https://santsniggurathbcn.wordpress.com"
+    },
+    "order_date":"2022-12-18T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2022-12-18T16:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Las reinas del desierto",
+        "url":"https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 One Page Dungeon Contest", "url": "https://www.dungeoncontest.com/" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2022-11-01T00:00",
-    "content": [ {
-        "metatype": "creation",
-        "date": "2022-11-01T12:00",
-        "lang": "English",
-        "type": "Participation",
-        "title": "Wonder Heist",
-        "accessibility": { "tag": "[gumroad]", "url": "https://app.gumroad.com/d/a9464f496c0daa19414b865393930fab" },
-        "prize": "Not nominated"
+    "event":{
+      "title":"2022 Ayudar Jugando",
+      "url":"https://ayudarjugando.org/proyectos/jornadas-solidarias/xxi-jornadas-solidarias/rol-jornadas-xxi/"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"ALC Stronghold",
+      "url":"https://twitter.com/ALC_Stronghold/status/1598327289288294401?s=20&t=H3GpKydfyvBZTKrmbd_gRA"
+    },
+    "order_date":"2022-12-10T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2022-12-10T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Las reinas del desierto",
+        "url":"https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 Fontana by Night", "url": "https://www.alcstronghold.com/fontana-by-night" },
-    "promotion": { "status": "yes", "name": "ALC Stronghold", "url": "https://www.alcstronghold.com/" },
-    "order_date": "2022-07-23T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2022-07-23T18:00",
-        "lang": "Catalan",
-        "type": "One-Shot",
-        "title": "Tronc de Cendres",
-        "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2022 DAU Barcelona",
+      "url":"https://www.barcelona.cat/daubarcelona"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2022-11-19T00:00",
+    "content":[
+      {
+        "metatype":"player",
+        "date":"2022-11-19T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"La princesa prometida",
+        "url":"https://www.dmsguild.com/product/417735/Las-reinas-del-desierto",
+        "system":"D&D 5e"
       }
     ]
   },
   {
-    "event": { "title": "2022 Maydays Charity Convention", "url": "https://d8summit.org/maydays/" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2022-06-24T00:00",
-    "content": [ {
-        "metatype": "player",
-        "date": "2022-06-24T17:00",
-        "lang": "English",
-        "type": "One-Shot",
-        "title": "King Obould's Fist",
-        "url": "https://tabletop.events/conventions/2022-maydays-charity-convention-online-/schedule/22",
-        "system": "D&D 5e"
+    "event":{
+      "title":"2022 Un Dungeon en Una Página",
+      "url":"https://sites.google.com/view/dungeonpagina/edici%C3%B3n-2022"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2022-11-15T00:00",
+    "content":[
+      {
+        "metatype":"creation",
+        "date":"2022-11-15T12:00",
+        "lang":"Español",
+        "type":"Participation",
+        "title":"El color de los héroes",
+        "accessibility":{
+          "tag":"[google drive]",
+          "url":"https://drive.google.com/file/d/1jiyaueIPwW9TsWn_KolIhETmjgRe4HI4/view"
+        },
+        "prize":"Not nominated"
       }
     ]
   },
   {
-    "event": { "title": "2022 NETCON", "url": "https://www.netconplay.com/listado-de-partidas/" },
-    "promotion": { "status": "yes", "name": "Shadowlands Ediciones", "url": "https://shadowlands.es/" },
-    "order_date": "2022-04-16T00:00",
-    "content": [ {
-        "metatype": "direction",
-        "date": "2022-04-16T16:00",
-        "lang": "Español",
-        "type": "One-Shot",
-        "title": "La Velada más Inesperada",
-        "url": "https://shadowlands.es/aventuras/la-velada-mas-inesperada/",
-        "system": "D&D 5e",
-        "extra": { "type": "[YouTube]", "url": "https://www.youtube.com/watch?v=saYynEvwMHE" }
+    "event":{
+      "title":"2022 One Page Dungeon Contest",
+      "url":"https://www.dungeoncontest.com/"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2022-11-01T00:00",
+    "content":[
+      {
+        "metatype":"creation",
+        "date":"2022-11-01T12:00",
+        "lang":"English",
+        "type":"Participation",
+        "title":"Wonder Heist",
+        "accessibility":{
+          "tag":"[gumroad]",
+          "url":"https://app.gumroad.com/d/a9464f496c0daa19414b865393930fab"
+        },
+        "prize":"Not nominated"
       }
     ]
   },
   {
-    "event": { "title": "2021 Un Dungeon en Una Página", "url": "https://sites.google.com/view/dungeonpagina/ediciones-anteriores/2021" },
-    "promotion": { "status": "no", "name": null, "url": null },
-    "order_date": "2021-11-15T00:00",
-    "content": [ {
-        "metatype": "creation",
-        "date": "2021-11-15T12:00",
-        "lang": "Español",
-        "type": "Participation",
-        "title": "El Castigo de Benzenbu",
-        "accessibility": { "tag": "[google drive]", "url": "https://drive.google.com/file/d/1tbSaOYhxyGlb7Xnd8bsP_VKY9f5Lq4aa/view" },
-        "prize": "14th prize, out of 15 prizes and 33 participants"
+    "event":{
+      "title":"2022 Fontana by Night",
+      "url":"https://www.alcstronghold.com/fontana-by-night"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"ALC Stronghold",
+      "url":"https://www.alcstronghold.com/"
+    },
+    "order_date":"2022-07-23T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2022-07-23T18:00",
+        "lang":"Catalan",
+        "type":"One-Shot",
+        "title":"Tronc de Cendres",
+        "url":"https://www.dmsguild.com/product/460042/Tronc-de-cendres",
+        "system":"D&D 5e"
+      }
+    ]
+  },
+  {
+    "event":{
+      "title":"2022 Maydays Charity Convention",
+      "url":"https://d8summit.org/maydays/"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2022-06-24T00:00",
+    "content":[
+      {
+        "metatype":"player",
+        "date":"2022-06-24T17:00",
+        "lang":"English",
+        "type":"One-Shot",
+        "title":"King Obould's Fist",
+        "url":"https://tabletop.events/conventions/2022-maydays-charity-convention-online-/schedule/22",
+        "system":"D&D 5e"
+      }
+    ]
+  },
+  {
+    "event":{
+      "title":"2022 NETCON",
+      "url":"https://www.netconplay.com/listado-de-partidas/"
+    },
+    "promotion":{
+      "status":"yes",
+      "name":"Shadowlands Ediciones",
+      "url":"https://shadowlands.es/"
+    },
+    "order_date":"2022-04-16T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2022-04-16T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"La Velada más Inesperada",
+        "url":"https://shadowlands.es/aventuras/la-velada-mas-inesperada/",
+        "system":"D&D 5e",
+        "extra":{
+          "type":"[YouTube]",
+          "url":"https://www.youtube.com/watch?v=saYynEvwMHE"
+        }
+      }
+    ]
+  },
+  {
+    "event":{
+      "title":"2021 Un Dungeon en Una Página",
+      "url":"https://sites.google.com/view/dungeonpagina/ediciones-anteriores/2021"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2021-11-15T00:00",
+    "content":[
+      {
+        "metatype":"creation",
+        "date":"2021-11-15T12:00",
+        "lang":"Español",
+        "type":"Participation",
+        "title":"El Castigo de Benzenbu",
+        "accessibility":{
+          "tag":"[google drive]",
+          "url":"https://drive.google.com/file/d/1tbSaOYhxyGlb7Xnd8bsP_VKY9f5Lq4aa/view"
+        },
+        "prize":"14th prize, out of 15 prizes and 33 participants"
       }
     ]
   }
