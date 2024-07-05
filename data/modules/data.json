@@ -7,7 +7,7 @@
         "year": "2021",
         "nplayers": "4",
         "etime": "4 horas",
-        "available": true,
+        "status": "published",
         "lang_options": [
             {
                 "lang": "es",
@@ -19,7 +19,8 @@
                     "url": "https://www.dmsguild.com/product/378158/Tronco-de-ceniza"
                 },
                 "lang_slug": "tronco-de-ceniza",   
-                "lang_collection": "Canción de invierno"
+                "lang_collection": "Canción de invierno",
+                "available": true
             },
             {
                 "lang": "en",
@@ -31,7 +32,8 @@
                     "url": "https://www.dmsguild.com/product/382202/Log-of-ashes"
                 },
                 "lang_slug": "log-of-ashes",
-                "lang_collection": "Winter song"
+                "lang_collection": "Winter song",
+                "available": true
             },
             {
                 "lang": "cat",
@@ -43,7 +45,8 @@
                     "url": "https://www.dmsguild.com/product/460042/Tronc-de-cendres"
                 },
                 "lang_slug": "tronc-de-cendres",
-                "lang_collection": "Canço d'hivern"
+                "lang_collection": "Canço d'hivern",
+                "available": true
             }
         ]
     },
@@ -55,7 +58,7 @@
         "year": "2022",
         "nplayers": "4",
         "etime": "5-6 horas",
-        "available": true,
+        "status": "published",
         "lang_options": [
             {
                 "lang": "es",
@@ -67,7 +70,8 @@
                     "url": "https://www.dmsguild.com/product/414343/El-Caliz-de-la-Vida"
                 },
                 "lang_slug": "el-caliz-de-la-vida",
-                "lang_collection": null
+                "lang_collection": null,
+                "available": true
             },
             {
                 "lang": "cat",
@@ -79,7 +83,21 @@
                     "url": "https://www.dmsguild.com/product/459047/El-Calze-de-la-Vida"
                 },
                 "lang_slug": "el-calze-de-la-vida",
-                "lang_collection": null
+                "lang_collection": null,
+                "available": true
+            },
+            {
+                "lang": "en",
+                "title": "The chalice of life",
+                "subtitle": "A short adventure for DnD 5e with a little dark twist.",
+                "summary": "Tax Greenapple is a halfling who has been turned into a goblin. But thanks to his anthropological work - the same ones that led him to be polymorphed into a goblin - he knows how to free himself from this curse. However, the road to freedom is not easy and he has hired four mercenaries to watch his back.",
+                 "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "the-chalice-of-life",
+                "lang_collection": null,
+                "available": false
             }
         ]
     },
@@ -91,7 +109,7 @@
         "year": "2022",
         "nplayers": "3",
         "etime": "4 hours",
-        "available": true,
+        "status": "published",
         "lang_options": [
             {
                 "lang": "en",
@@ -103,7 +121,8 @@
                     "url": "https://www.dmsguild.com/product/417733/The-queens-of-the-desert"
                 },
                 "lang_slug": "the-queens-of-the-desert",
-                "lang_collection": "Winter song"
+                "lang_collection": "Winter song",
+                "available": true
             },
             {
                 "lang": "es",
@@ -115,7 +134,8 @@
                     "url": "https://www.dmsguild.com/product/417735/Las-reinas-del-desierto"
                 },
                 "lang_slug": "las-reinas-del-desierto",
-                "lang_collection": "Canción de invierno"
+                "lang_collection": "Canción de invierno",
+                "available": true
             },
             {
                 "lang": "cat",
@@ -127,7 +147,8 @@
                     "url": "https://www.dmsguild.com/product/472894/Les-reines-del-desert"
                 },
                 "lang_slug": "les-reines-del-desert",
-                "lang_collection": "Canço d'hivern"
+                "lang_collection": "Canço d'hivern",
+                "available": true
             }
         ]
     },
@@ -139,7 +160,7 @@
         "year": "2023",
         "nplayers": "4",
         "etime": "5 hours",
-        "available": true,
+        "status": "published",
         "lang_options": [
             {
                 "lang": "en",
@@ -151,7 +172,8 @@
                     "url": "https://www.dmsguild.com/product/461800/Evercold-Heroes"
                 },
                 "lang_slug": "evercold-heroes",
-                "lang_collection": "Winter song"
+                "lang_collection": "Winter song",
+                "available": true
             },
             {
                 "lang": "es",
@@ -163,7 +185,8 @@
                     "url": "https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold"
                 },
                 "lang_slug": "los-heroes-de-evercold",
-                "lang_collection": "Canción de invierno"
+                "lang_collection": "Canción de invierno",
+                "available": true
             },
             {
                 "lang": "cat",
@@ -175,7 +198,110 @@
                     "url": "https://www.dmsguild.com/product/459046/Els-herois-dEvercold"
                 },
                 "lang_slug": "els-herois-evercold",
-                "lang_collection": "Canço d'hivern"
+                "lang_collection": "Canço d'hivern",
+                "available": true
+            }
+        ]
+    },
+    {
+        "global_slug": "music-from-jupiter",
+        "global_collection": null,
+        "type": "one-shot",
+        "system": "Starlink",
+        "year": "2024",
+        "nplayers": "5",
+        "etime": "4 hours",
+        "status": "published",
+        "lang_options": [
+            {
+                "lang": "en",
+                "title": "The music from Jupiter",
+                "subtitle": "A soft space opera on humanity discovering we are not alone.",
+                "summary": "In humanity's first foray into the cosmos, a captivating melody drifts out from Jupiter's north pole. The Starlink Initiative, ahandpicked crew of specialists, embarks on a perilous mission to investigate. Their journey is fraught with danger - dodgingasteroids, repairing critical spacecraft damage, and braving the tempestuous Jovian atmosphere. Their objective: a derelict alienvessel trapped within the swirling storm. Inside await hazards, ancient artifacts hinting at a forgotten connection, and the enigmaticsource of the music. Will they unravel the mysteries before time runs out, or will the secrets of Jupiter be lost forever?",
+                "link": {
+                    "platform": "itch.io",
+                    "url": "https://iamkuragari.itch.io/the-music-from-jupiter"
+                },
+                "lang_slug": "the-music-from-jupiter",
+                "lang_collection": null,
+                "available": true
+            },
+            {
+                "lang": "es",
+                "title": "La música de Júpiter",
+                "subtitle": "Una tranquila aventura espacial sobre la humanidad descubriendo que no está sola.",
+                "summary": "En la primera incursión de la humanidad en el cosmos, una melodía cautivadora surge del polo norte de Júpiter. La Iniciativa Starlink, un equipo de especialistas cuidadosamente seleccionados, se embarca en una peligrosa misión para investigar. Su viaje está plagado de peligros: esquivar asteroides, reparar daños críticos en naves espaciales y desafiar la tempestuosa atmósfera joviana. Su objetivo: una nave alienígena abandonada atrapada dentro de la tormenta. En el interior aguardan peligros, artefactos antiguos que insinúan una conexión olvidada y la enigmática fuente de la música. ¿Desentrañarán los misterios antes de que se acabe el tiempo o se perderán para siempre los secretos de Júpiter?",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "la-musica-de-jupiter",
+                "lang_collection": null,
+                "available": false
+            },
+            {
+                "lang": "cat",
+                "title": "La música de Júpiter",
+                "subtitle": "Una tranquila aventura espacial sobre la humanitat descobrint que no està sola.",
+                "summary": "En la primera incursió de la humanitat al cosmos, una melodia captivadora surt del pol nord de Júpiter. La Iniciativa Starlink, un grup d'especialistes seleccionats, s'embarca en una perillosa missió per investigar. El seu viatge està ple de perills: esquivar asteroides, reparar danys crítics a les naus espacials i afrontar la tempestuosa atmosfera joviana. El seu objectiu: un vaixell alienígena abandonat atrapat dins de la tempesta remolinada. A l'interior esperen perills, artefactes antics que insinuen una connexió oblidada i la font enigmàtica de la música. Desvelaran els misteris abans que s'acabi el temps, o els secrets de Júpiter es perdran per sempre?",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "la-musica-de-jupiter",
+                "lang_collection": null,
+                "available": false
+            }
+        ]
+    },
+    {
+        "global_slug": "path-of-the-stars",
+        "global_collection": null,
+        "type": "one-shot",
+        "system": "D&D 5e",
+        "year": "2024",
+        "nplayers": "4",
+        "etime": "4 hours",
+        "status": "testing",
+        "lang_options": [
+            {
+                "lang": "en",
+                "title": "The Path of the Stars",
+                "subtitle": "A cozy high fantasy adventure.",
+                "summary": "In the quiet village of Starwood, a mysterious black comet crashes, spreading corruption and chaos. The heroes, touched by the stars, must gather the villagers' faith and perform a purification ritual using the sacred white star. As they face dark tendrils and navigate perilous caves, the characters unite to cleanse the black comet, restoring peace and hope to Starwood.",
+                "link": {
+                    "platform": null,
+                    "url":  null
+                },
+                "lang_slug": "the-path-of-the-stars",
+                "lang_collection": null,
+                "available": false
+            },
+            {
+                "lang": "es",
+                "title": "El Camino de las Estrellas",
+                "subtitle": "Una acogedora aventura de alta fantasía.",
+                "summary": "En el tranquilo pueblo de Bosquestrella, un misterioso cometa se estrella, sembrando corrupción y caos. Los héroes, tocados por las estrellas, deben reunir la fe de los aldeanos y realizar un ritual de purificación utilizando la sagrada estrella blanca. Mientras se enfrentan a zarcillos oscuros y navegan por cuevas peligrosas, los personajes se unen para devolver la paz y la esperanza al pueblo.",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "el-camino-de-las-estrellas",
+                "lang_collection": null,
+                "available": false
+            },
+            {
+                "lang": "cat",
+                "title": "El Camí de les Estrelles",
+                "subtitle": "Una tranquila aventura espacial sobre la humanitat descobrint que no està sola.",
+                "summary": "Al tranquil poble de Starwood, un misteriós cometa negre s'estavella, propagant la corrupció i el caos. Els herois, tocats per les estrelles, han de reunir la fe dels vilatans i realitzar un ritual de purificació utilitzant l'estrella blanca sagrada. Mentre s'enfronten a xardins foscos i naveguen per coves perilloses, els personatges s'uneixen per netejar el cometa negre, restaurant la pau i l'esperança a Starwood.",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "el-cami-de-les-estrelles",
+                "lang_collection": null,
+                "available": false
             }
         ]
     }

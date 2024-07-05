@@ -19,7 +19,7 @@ def _create_full_module_( module ):
                          'year': module[ 'year' ],
                      'nplayers': module[ 'nplayers' ],
                         'etime': module[ 'etime' ],
-                    'available': module[ 'available' ],
+                    'available': opt[ 'available' ],
                         'title': opt[ 'title' ],
                      'subtitle': opt[ 'subtitle' ],
                       'summary': opt[ 'summary' ],
@@ -31,12 +31,13 @@ def _create_full_module_( module ):
     return rst
 
 def _create_display_module_( modules, module ):
-    coll = [ x for x in modules if x[ 'global_collection' ] == module[ 'global_collection' ] and x[ 'lang' ] == module[ 'lang' ] ]
+    coll = [ x for x in modules if module[ 'global_collection' ] is not None and x[ 'global_collection' ] == module[ 'global_collection' ] and x[ 'lang' ] == module[ 'lang' ] ]
     rst = { 
         'module': module,
-        'lang': [ { 'lang': x[ 'lang' ], 'lang_slug': x[ 'lang_slug' ] } for x in modules if x[ 'global_slug' ] == module[ 'global_slug' ] and x[ 'lang' ] != module[ 'lang' ] ],
+        'lang': [ { 'lang': x[ 'lang' ], 'lang_slug': x[ 'lang_slug' ], 'available': x[ 'available' ] } for x in modules if x[ 'global_slug' ] == module[ 'global_slug' ] ], # and x[ 'lang' ] != module[ 'lang' ] ],
         'collection': [ { 'title': x[ 'title' ], 'year': x[ 'year' ], 'lang_slug': x[ 'lang_slug' ] } for x in coll if x [ 'lang_slug' ] != module[ 'lang_slug' ] ]
     }
+    rst[ 'lang' ].sort( key = lambda x: x[ 'lang' ] )
     return rst
 
 def load( data_path ):
