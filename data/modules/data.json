@@ -304,5 +304,56 @@
                 "available": false
             }
         ]
+    },
+    {
+        "global_slug": "twilight-of-orothan",
+        "global_collection": null,
+        "type": "shot adventure",
+        "system": "D&D 5e",
+        "year": "2023",
+        "nplayers": "4",
+        "etime": "30",
+        "status": "testing",
+        "lang_options": [
+            {
+                "lang": "en",
+                "title": "The Twilight of Orothan",
+                "subtitle": "A lost adventure in the desert.",
+                "summary": "At the majestic Great temple of Orothan, a fateful accident has revealed the entrance to forgotten catacombs that lie beneath the city. Given the mystery surrounding this discovery, the venerated Saint Halima has sent a battalion of brave defenders of the faith to investigate this enigmatic region, however, none have returned. Furthermore, since the entrance was revealed, dark nightmares plague Saint Halima's rest at night, while sinister voices stalk her with promises of power during the day. Your mission is clear: explore the catacombs hidden beneath Orothan, discover what calls to Saint Halima, and protect the city from any evil that may lurk in the shadows.",
+                "link": {
+                    "platform": null,
+                    "url":  null
+                },
+                "lang_slug": "the-twilight-of-orothan",
+                "lang_collection": null,
+                "available": false
+            },
+            {
+                "lang": "es",
+                "title": "El Ocaso de Orothan",
+                "subtitle": "Una aventura perdida en el desierto.",
+                "summary": "En el majestuoso Gran templo de Orothan, un fatídico accidente ha desvelado la entrada a unas catacumbas olvidadas que se extienden bajo la ciudad. Ante el misterio que rodea este descubrimiento, la venerada Santa Halima ha enviado a un batallón de valientes defensoras de la fe a investigar esta enigmática región, sin embargo, ninguna ha regresado. Además, desde que la entrada fue revelada, oscuras pesadillas asaltan el descanso de la Santa Halima durante la noche, mientras voces siniestras la acechan con promesas de poder durante el día. Vuestra misión es clara: explorar las catacumbas que se ocultan bajo Orothan, descubrir qué llama a la Santa Halima y proteger la ciudad de cualquier mal que pueda acechar desde las sombras.",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "el-ocaso-de-orothan",
+                "lang_collection": null,
+                "available": false
+            },
+            {
+                "lang": "cat",
+                "title": "El Ocàs d'Orothan",
+                "subtitle": "Una aventura perduda al desert.",
+                "summary": "Al majestuós Gran temple d'Orothan, un accident fatídic ha revelat l'entrada a unes catacumbes oblidades que s'estenen sota la ciutat. Davant el misteri que envolta aquest descobriment, la venerada Santa Halima ha enviat un batalló de valents defensores de la fe a investigar aquesta enigmàtica regió, però cap ha tornat. A més, des que l'entrada va ser revelada, foscos malsons assalten el descans de la Santa Halima durant la nit, mentre veus sinistres la criden amb promeses de poder durant el dia. La vostra missió és clara: explorar les catacumbes que s'amaguen sota Orothan, descobrir què amenaça a la Santa Halima i protegir la ciutat de qualsevol mal que pugui aguaitar des de les ombres.",
+                "link": {
+                    "platform": null,
+                    "url": null
+                },
+                "lang_slug": "el-ocas-dorothan",
+                "lang_collection": null,
+                "available": false
+            }
+        ]
     }
 ]

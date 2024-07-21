@@ -11,7 +11,15 @@
     },
     "order_date":"2024-04-28T00:00",
     "content":[
-      
+      {
+        "metatype":"jugador",
+        "date":"2024-04-28T10:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Hangar 37",
+        "url": "https://alexander-bautista.itch.io/starlink-ttrpg",
+        "system":"Starlink"
+      }
     ]
   },
   {
