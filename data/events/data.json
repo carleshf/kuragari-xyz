@@ -1,7 +1,39 @@
 [
   {
     "event":{
-      "title":"2024 RoleDCon",
+      "title":"2024 RoleDCon de Octubre",
+      "url":null
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2024-10-19T00:00",
+    "content":[
+      {
+        "metatype":"jugador",
+        "date":"2024-10-10T11:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"El Eco de las Arenas Olvidadas",
+        "url": "https://nivel20.com/event_games/183-mesa-11-el-eco-de-las-arenas-olvidadas",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"jugador",
+        "date":"2024-10-10T17:30",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":" El inicio de un mal presagio",
+        "url": "https://nivel20.com/event_games/173-mesa-2-el-inicio-de-un-mal-presagio",
+        "system":"D&D 5.3"
+      }
+    ]
+  },
+  {
+    "event":{
+      "title":"2024 RoleDCon de Abril",
       "url":null
     },
     "promotion":{

@@ -44,6 +44,7 @@
                           {% if cnt.metatype == 'direction' %}
                             <li>📆 {{ cnt.date }}</li>
                             <li>🎬 Direction (🗣️ {{ cnt.lang }})</li>
+                            <li>⚙️ {{ cnt.system }}</li>
                           {% elif cnt.metatype == 'creation' %}
                             <li>✍️ Creation (🗣️ {{ cnt.lang }})</li>
                             <li>🏆 {{ cnt.prize }}</li>
@@ -51,6 +52,7 @@
                           {% else %}
                             <li>📆 {{ cnt.date }}</li>
                             <li>🕹️ Player (🗣️ {{ cnt.lang }})</li>
+                            <li>⚙️ {{ cnt.system }}</li>
                           {% endif %}
                           {% if cnt.extra %}
                             <li>📺 You can see this recording at <a href="{{ cnt.extra.url }}" target="_blank">{{ cnt.extra.type }}</a></li>
