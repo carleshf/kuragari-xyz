@@ -270,8 +270,8 @@
                 "subtitle": "A cozy high fantasy adventure.",
                 "summary": "In the quiet village of Starwood, a mysterious black comet crashes, spreading corruption and chaos. The heroes, touched by the stars, must gather the villagers' faith and perform a purification ritual using the sacred white star. As they face dark tendrils and navigate perilous caves, the characters unite to cleanse the black comet, restoring peace and hope to Starwood.",
                 "link": {
-                    "platform": null,
-                    "url":  null
+                    "platform": "itch.io",
+                    "url":  "https://iamkuragari.itch.io/the-path-from-the-stars"
                 },
                 "lang_slug": "the-path-of-the-stars",
                 "lang_collection": null,
@@ -283,8 +283,8 @@
                 "subtitle": "Una acogedora aventura de alta fantasía.",
                 "summary": "En el tranquilo pueblo de Bosquestrella, un misterioso cometa se estrella, sembrando corrupción y caos. Los héroes, tocados por las estrellas, deben reunir la fe de los aldeanos y realizar un ritual de purificación utilizando la sagrada estrella blanca. Mientras se enfrentan a zarcillos oscuros y navegan por cuevas peligrosas, los personajes se unen para devolver la paz y la esperanza al pueblo.",
                 "link": {
-                    "platform": null,
-                    "url": null
+                    "platform": "itch.io",
+                    "url": "https://iamkuragari.itch.io/el-camino-de-las-estrellas"
                 },
                 "lang_slug": "el-camino-de-las-estrellas",
                 "lang_collection": null,
@@ -293,11 +293,11 @@
             {
                 "lang": "cat",
                 "title": "El Camí de les Estrelles",
-                "subtitle": "Una tranquila aventura espacial sobre la humanitat descobrint que no està sola.",
-                "summary": "Al tranquil poble de Starwood, un misteriós cometa negre s'estavella, propagant la corrupció i el caos. Els herois, tocats per les estrelles, han de reunir la fe dels vilatans i realitzar un ritual de purificació utilitzant l'estrella blanca sagrada. Mentre s'enfronten a xardins foscos i naveguen per coves perilloses, els personatges s'uneixen per netejar el cometa negre, restaurant la pau i l'esperança a Starwood.",
+                "subtitle": "Una acollidora aventura d'alta fantasia.",
+                "summary": "Al tranquil poble de Boscestelat, un misteriós cometa negre s'estavella, propagant la corrupció i el caos. Els herois, tocats per les estrelles, han de reunir la fe dels vilatans i realitzar un ritual de purificació utilitzant l'estrella blanca sagrada. Mentre s'enfronten a xardins foscos i naveguen per coves perilloses, els personatges s'uneixen per netejar el cometa negre, restaurant la pau i l'esperança a Boscestelat.",
                 "link": {
-                    "platform": null,
-                    "url": null
+                    "platform": "itch.io",
+                    "url": "https://iamkuragari.itch.io/el-cami-de-les-estrelles"
                 },
                 "lang_slug": "el-cami-de-les-estrelles",
                 "lang_collection": null,
