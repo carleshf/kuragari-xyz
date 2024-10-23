@@ -275,7 +275,7 @@
                 },
                 "lang_slug": "the-path-of-the-stars",
                 "lang_collection": null,
-                "available": false
+                "available": true
             },
             {
                 "lang": "es",
@@ -288,7 +288,7 @@
                 },
                 "lang_slug": "el-camino-de-las-estrellas",
                 "lang_collection": null,
-                "available": false
+                "available": true
             },
             {
                 "lang": "cat",
@@ -301,7 +301,7 @@
                 },
                 "lang_slug": "el-cami-de-les-estrelles",
                 "lang_collection": null,
-                "available": false
+                "available": true
             }
         ]
     },
