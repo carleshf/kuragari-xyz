@@ -1,6 +1,52 @@
 [
   {
     "event":{
+      "title":"2025 RoleDCon de Octubre",
+      "url":null
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2025-10-18T00:00",
+    "content":[
+    ]
+  },
+  {
+    "event":{
+      "title":"2025 ALC Stronghold Epic Day",
+      "url":"hhttps://www.alcstronghold.com/hazlo-epico"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2025-06-31T00:00",
+    "content":[
+      {
+        "metatype":"direction",
+        "date":"2023-12-16T10:30",
+        "lang":"Català",
+        "type":"One-Shot",
+        "title":"Los Héroes de Evercold",
+        "url":"https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold",
+        "system":"D&D 5e"
+      },
+      {
+        "metatype":"direction",
+        "date":"2023-12-16T16:00",
+        "lang":"Español",
+        "type":"One-Shot",
+        "title":"Los Héroes de Evercold",
+        "url":"https://www.dmsguild.com/product/459045/Los-heroes-de-Evercold",
+        "system":"D&D 5e"
+      }
+    ]
+  },
+  {
+    "event":{
       "title":"2024 RoleDCon de Octubre",
       "url":null
     },
