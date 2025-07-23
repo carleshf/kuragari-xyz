@@ -47,6 +47,32 @@
   },
   {
     "event":{
+      "title":"2024 The Advent(ure) Calendar Jam",
+      "url":"https://itch.io/jam/the-advent-cal-jam"
+    },
+    "promotion":{
+      "status":"no",
+      "name":null,
+      "url":null
+    },
+    "order_date":"2021-11-15T00:00",
+    "content":[
+      {
+        "metatype":"creation",
+        "date":"2021-11-15T12:00",
+        "lang":"English",
+        "type":"Participation",
+        "title":"The Vault of Stolen Cheer",
+        "accessibility":{
+          "tag":"[itch.io]",
+          "url":"https://iamkuragari.itch.io/the-vault-of-stolen-cheer"
+        },
+        "prize":""
+      }
+    ]
+  },
+  {
+    "event":{
       "title":"2024 RoleDCon de Octubre",
       "url":null
     },
